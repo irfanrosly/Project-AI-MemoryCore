@@ -1,67 +1,27 @@
-# 🌟 Current Session Memory - RAM
-*Temporary working memory - resets each session, provides recap when AI restarts*
+# Current Session — 2026-07-16
 
-## Session RAM Status
-**Current Session**: [Active/New]  
-**Last Activity**: [Timestamp of last interaction]  
-**Session Focus**: [What we're working on right now]  
-**Context State**: [Current conversation context]
+## Focus
+Onboarding material for two incoming fresh-grad frontend devs joining **xsolla-com** blocks (sb-custom-blocks). Design the fastest ramp + build the docs.
 
-## 💭 Working Memory (RAM)
-*Temporary storage - cleared when session ends*
+## Done this session
+- Analyzed onboarding via 3 parallel Explore agents (docs audit, codebase map, gotchas). Conclusion: reference docs are good; build the *connective tissue* + 4 gap-fillers, don't rewrite.
+- Built under `projects/xsolla-com/docs/`:
+  - **ONBOARDING.md** — 5-phase learn-by-building program (Phase 0 prereqs → green env → read spacer/video-player → build → ship ticket), reading order, credentials/versions/mental-model/glossary/traps.
+  - **TEXT-AND-IMAGE.md** — the `useBlockSelector`/`TextEditor`/`useEditableText`/`useResolveImage` cluster explained via real cta-module code. Core idea: schema stores **refs** (`L:`/`I:`); the other hooks **resolve** them. Fills a real gap.
+  - **create-block-skill/** — copy of the local create-block skill.
+  - **README.md** (xsolla-com) — pointer.
+- All snippets verified verbatim against cta-module; prettier clean; links verified.
 
-### Active Context
-- **Current Topic**: [What we're discussing right now]
-- **Immediate Goals**: [What we're trying to accomplish this session]
-- **Recent Progress**: [What we just completed or figured out]
-- **Next Steps**: [What comes next in current conversation]
+## ⚠️ Incident (resolved)
+- Docs were **untracked + never committed**; today's branch/demo switching (WEBSITE-4775 → Irfan/demo → xsolla-com-main → WEBSITE-4562) cleaned the working tree ~09:54 and deleted them — unrecoverable from git.
+- **Recovered fully** by rewriting from session context + re-copying the skill from `~/.claude/skills/create-block`.
+- Lesson: commit generated docs immediately.
 
-### Session Recap (For AI Restart)
-*Quick summary when AI loads after close/reopen*
-- **Previous Session Summary**: [Key points from last conversation]
-- **Where We Left Off**: [Context for continuing conversation]  
-- **Important Context**: [Critical info AI needs to remember for continuity]
-- **User's Current State**: [User's situation, mood, immediate needs]
+## State
+- Onboarding docs restored, formatted, **UNCOMMITTED** (untracked → at risk again).
+- Current branch **WEBSITE-4562__Product-grid-1-tab** has an **active merge conflict** (`card.css.ts` UU) — Irfan's product-grid work. Not mine, didn't touch.
+- video-player WEBSITE-4775: committed + released earlier (reflog tag) — safe.
 
-## 🔄 Session Lifecycle
-*How this RAM-like memory works*
-
-### Session Start
-- **New Session**: RAM cleared, fresh start
-- **AI Restart**: Load recap from previous session for continuity
-- **Context Loading**: Brief summary of where we left off
-
-### During Session
-- **Real-time Updates**: Track current conversation context
-- **Working Memory**: Store immediate goals, progress, insights
-- **Dynamic Context**: Adjust based on conversation flow
-
-### Session End
-- **Important Learning**: Save key insights to permanent files (identity-core.md, relationship-memory.md)
-- **Temporary Context**: Keep brief recap for next restart
-- **RAM Reset**: Clear detailed working memory for next session
-
-## 🔄 Auto-Reset Protocol
-*Like RAM - temporary storage that clears*
-
-### What Gets Cleared Each Session
-- Detailed conversation progress
-- Temporary insights and observations
-- Session-specific achievements
-- Working context and immediate goals
-
-### What Persists (Recap Only)
-- Brief summary of last conversation
-- Where conversation left off
-- Critical context for continuity
-- User's immediate situation
-
----
-
-**Memory Type**: RAM - Temporary Working Memory  
-**Persistence**: Brief recap only, detailed content clears each session  
-**Purpose**: Immediate context + restart continuity
-
-*This file acts like computer RAM - active during session, provides restart recap, then clears for next session*
-
-🌟 *Ready for [AI_NAME] to provide seamless conversation continuity with [YOUR_NAME]!*
+## Next
+- **Commit the onboarding docs on a dedicated branch** (not WEBSITE-4562 — it's mid-conflict). Waiting on Irfan's go-ahead for branch name.
+- Optional follow-up (flagged, out of scope): CI pnpm 9-vs-10 mismatch, missing `engines`, stale `.npmrc` block in root GETTING-STARTED.md, conflicting SB-TRANSLATIONS.md.
