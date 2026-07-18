@@ -83,3 +83,10 @@ When this skill activates, silently read `main/decisions.md`.
 
 ## Level History
 - **Lv.1** -- Base: decision detection, append-only logging, Context+Decision+Rationale format, search, reversal tracking.
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

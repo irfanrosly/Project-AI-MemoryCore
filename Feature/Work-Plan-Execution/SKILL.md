@@ -183,3 +183,10 @@ If the Auto-Commit System is not installed, the execution loop still works:
 
 - **Lv.1** — Base: Three commands (copy/append/resume) + shared execution loop + per-todo commit chain + line rotation + recovery mechanism + checkpoint saves. (Origin: Production AI companion plan execution workflow)
 - **Lv.2** — Wave Execution: Dependency-aware wave grouping — independent tasks within a phase can be executed in parallel via sub-agents, with wave barriers enforcing order between dependent groups.
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

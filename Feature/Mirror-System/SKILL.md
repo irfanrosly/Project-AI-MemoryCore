@@ -29,3 +29,10 @@ description: "MUST use when user wants honest feedback or reflection on work/dec
 
 ## Level History
 - **Lv.1** — Base: 3-part assessment, pattern note, day reflection. (Origin: Forged from Kiyo's enchantment system, 2026-05-12)
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

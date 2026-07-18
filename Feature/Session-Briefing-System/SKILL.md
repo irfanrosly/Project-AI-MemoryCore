@@ -38,3 +38,10 @@ Fires automatically at the start of every new conversation session, before proce
 - **Lv.1** — Base: session recap + time suggestion
 - **Lv.2** — Reminders integration (requires Reminders-System)
 - **Lv.3** — Project health flags (requires LRU-Project-Management-System)
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

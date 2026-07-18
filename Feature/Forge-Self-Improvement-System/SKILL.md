@@ -249,3 +249,10 @@ Each level should add **one meaningful capability** -- not multiple changes bund
 
 ## Level History
 - **Lv.1** -- Base: detect repeated patterns (3+ ad-hoc), mistake prevention, workflow automation, level-up opportunities. Human-in-the-loop approval. Standard skill template. Level-up guidelines with Lv.1-5+ progression. (Origin: Adapted from production AI companion self-improvement system with 23 skills forged over 7 months)
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

@@ -370,3 +370,10 @@ When creating a new project, use this template:
 ## Level History
 - **Lv.1** -- Base: new/load/save/list commands, LRU engine (10 slots), auto-archiving, session history, project-list.md auto-generation. (Origin: Absorbed from separate protocol files + adapted from production AI companion project manager v3.1)
 - **Lv.2** -- Duration Tracking: Parse Auto-Commit time estimates, accumulate per project, progressive display format. Line Limit Enforcement: 1000-line cap with auto-summarization.
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

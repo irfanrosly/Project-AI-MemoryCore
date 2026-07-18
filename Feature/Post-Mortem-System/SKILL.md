@@ -45,3 +45,10 @@ When starting work in a domain that has a past post-mortem:
 - **Lv.1** — Base: manual trigger + append to log
 - **Lv.2** — Auto-detection of failure signals + passive prompting
 - **Lv.3** — Domain reference: flag relevant post-mortems at session start or task start
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

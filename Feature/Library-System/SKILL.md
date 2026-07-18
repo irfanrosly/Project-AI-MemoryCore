@@ -239,3 +239,10 @@ If Auto-Commit is not installed, remind the user to commit manually.
 - **Lv.3** — Commit Chain: After saving/updating library entries, auto-triggers the Auto-Commit skill (if installed) to commit all changes. Library save exit becomes commit entrance.
 - **Lv.4** — Format-Aware Save: Auto-determines library section from content keywords, loads matching format template from `library/formats/[section]-format.md`, applies template structure to new entries. Trust-based section selection (no approval gate). Formats loaded on-demand, not embedded.
 - **Lv.5** — Item Install: Install pre-made library entries from `library-items/` catalog. New commands: "install item [name]", "install library item", "add item from catalog". Scans catalog by filename keyword, shows preview, checks for duplicates in user's library, copies to correct section, chains commit. Catalog persists at project root (not deleted during Library System installation). (Origin: Public knowledge sharing for AI MemoryCore community)
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

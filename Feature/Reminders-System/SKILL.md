@@ -75,3 +75,10 @@ When this skill activates, silently read `main/reminders.md`.
 
 ## Level History
 - **Lv.1** -- Base: session start/end lifecycle, natural language detection, deadline tracking, append-only Open section, move-to-Completed pattern.
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

@@ -3,6 +3,8 @@ jira_keys: []
 local_path: ~/finfit-malaysia
 origin_url: none (local only, no remote yet)
 default_branch: main
+status: active
+last_active: 2026-07-10
 ---
 
 # FinFit Malaysia

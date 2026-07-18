@@ -110,10 +110,10 @@ daily-diary/
 ## 🔧 Memory Updates Required
 
 ### Files to Update Based on This Session:
-- [ ] **identity-core.md**: [Personality refinements needed]
-- [ ] **relationship-memory.md**: [New preference patterns to add]
-- [ ] **critical-thinking.md**: [Domain-specific adaptations discovered]
+- [ ] **main-memory.md**: [Personality refinements or preference patterns to add]
 - [ ] **current-session.md**: [Context updates for continuity]
+
+> **Post-Consolidation**: The system uses unified memory (`main/main-memory.md`) instead of separate identity-core and relationship-memory files.
 
 ### Specific Changes Needed:
 1. [Detailed update requirement with reasoning]

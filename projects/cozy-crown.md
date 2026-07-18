@@ -3,6 +3,8 @@ jira_keys: []
 local_path: ~/IR/cozy-crown
 origin_url: none (local only, no remote yet)
 default_branch: main
+status: stale — last active 2026-06-17 (31+ days)
+last_active: 2026-06-17
 ---
 
 # Cozy Crown

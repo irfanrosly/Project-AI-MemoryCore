@@ -64,9 +64,7 @@ Your AI follows this process during wizard:
 
 ### **Files Updated During Setup**
 ✅ **master-memory.md**: AI name and loading commands  
-✅ **identity-core.md**: Name, relationship style, communication patterns  
-✅ **relationship-memory.md**: User profile and preferences  
-✅ **critical-thinking.md**: Domain focus if specified  
+✅ **main-memory.md**: Unified identity, relationship, and communication patterns  
 ✅ **current-session.md**: Setup session documentation  
 ✅ **daily-diary/setup-[date].md**: Complete setup record  
 

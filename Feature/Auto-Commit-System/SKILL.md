@@ -127,3 +127,10 @@ After completing ANY task, the AI automatically:
 - **Lv.1** — Base: Analyze staged changes, draft structured commit message with configurable sections, enforce human authorship, no-emoji rule, time tracking, sensitive file detection. (Origin: Production AI companion commit workflow)
 - **Lv.2** — Auto-Commit: Removed approval gate — AI analyzes, drafts, and commits in one seamless flow without waiting for user confirmation on the message.
 - **Lv.3** — Vigilant: Proactive post-task detection — auto-checks `git status` after completing any task and commits if dirty. No work ever left behind.
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

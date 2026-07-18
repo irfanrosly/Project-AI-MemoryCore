@@ -3,6 +3,8 @@ jira_keys: []
 local_path: ~/Downloads/api-logger
 origin_url: ""
 default_branch: ""
+status: done — utility tool, no active development
+last_active: 2026-05-01
 ---
 
 # api-logger (logcatcher)

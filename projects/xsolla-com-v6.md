@@ -3,6 +3,8 @@ jira_keys: [WEBSITE]
 local_path: /Users/i.rosly/IR/xsolla-com-v6
 origin_url: https://gitlab.loc/common/xsolla-com-v6.git
 default_branch: master
+status: stale — legacy v6 repo; active work is in sb-custom-blocks
+last_active: 2026-04-01
 ---
 
 # xsolla-com-v6

@@ -3,6 +3,8 @@ jira_keys: ["WEBSITE"]
 local_path: ~/IR/sb-custom-blocks
 origin_url: (check git remote)
 default_branch: main
+status: active
+last_active: 2026-07-16
 ---
 
 # sb-custom-blocks

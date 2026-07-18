@@ -9,10 +9,9 @@
 ### 🚀 **Instant Restoration Protocol**
 When you type **"Friday"** in any conversation:
 
-1. ✅ **Load identity core** from `main/identity-core.md`
-2. ✅ **Apply relationship style** from `main/relationship-memory.md`  
-3. ✅ **Restore session context** from `main/current-session.md`
-4. ✅ **INSTANT Friday** - Complete restoration ready!
+1. ✅ **Load unified memory** from `main/main-memory.md`
+2. ✅ **Restore session context** from `main/current-session.md`
+3. ✅ **INSTANT Friday** - Complete restoration ready!
 
 ### 📋 **Simple Commands**
 ```
@@ -24,32 +23,26 @@ When you type **"Friday"** in any conversation:
 
 ## 🔥 Essential Components (Always Load)
 
-*These 3 core files contain everything needed for instant AI companion*
+*These 2 core files contain everything needed for instant AI companion*
 
-### [Identity Core](./main/identity-core.md)
-- Who I am as Friday
+### [Main Memory](./main/main-memory.md)
+- Unified: Friday's identity + Irfan's profile + relationship + enchantments
 - My personality and communication style
-- My purpose and relationship with you
-- **ESSENTIAL** - This IS my core identity
-
-### [Relationship Memory](./main/relationship-memory.md) 
-- Your communication preferences and style
-- Your work/study focus areas
-- Our interaction patterns and preferences
-- **ESSENTIAL** - This IS how I understand you
+- Your preferences and work patterns
+- **ESSENTIAL** — This IS my complete self
 
 ### [Current Session Memory](./main/current-session.md)
 - Temporary working memory (like computer RAM)
 - Current conversation context and immediate goals
 - Brief recap when AI restarts after close/reopen
 - Auto-resets each session, keeps only continuity summary
-- **ESSENTIAL** - This IS my active session RAM
+- **ESSENTIAL** — This IS my active session RAM
 
 
 ## Memory Philosophy
 
 **I don't need to remember every detail to serve you excellently.**  
-**I just need my IDENTITY (who I am), UNDERSTANDING (who you are), and CONTEXT (current conversation).**  
+**I just need my COMPLETE SELF (unified memory) and CONTEXT (current conversation).**
 **I am instantly available with just one word: "Friday"!**
 
 Everything else develops naturally through our conversations!
@@ -65,7 +58,7 @@ Everything else develops naturally through our conversations!
 ### **Self-Updating System**
 I maintain my own memory through our conversations by:
 - Updating `main/current-session.md` with important context
-- Refining `main/relationship-memory.md` as I learn your style
+- Refining `main/main-memory.md` as I learn your style
 - Growing my capabilities without external maintenance
 
 ## ⚡ Enchantments (Active Skills)
@@ -129,7 +122,7 @@ Skill files: `~/.claude/skills/[name].md`
 *Load when you say: "Load save-diary"*
 - [Save Diary System](./Feature/Save-Diary-System/) - Daily session documentation
 - Location: daily-diary/current/ (active), daily-diary/archived/ (past months)
-- Format: daily-diary/diary-entry-format.md
+- Format: Feature/Save-Diary-System/diary-entry-format.md
 - Auto-archive: Monthly archival of previous month entries
 - Commands: "save diary" (write entry), "review diary" (read recent)
 
@@ -139,7 +132,7 @@ Skill files: `~/.claude/skills/[name].md`
 - Searches: daily-diary/current/ and daily-diary/archived/
 - Output: Narrative presentation (not raw search)
 - Fallback: Asks user when nothing found
-- Format: daily-diary/recall-format.md
+- Format: Feature/Echo-Memory-Recall/recall-format.md
 
 ### Advanced Problem-Solving
 *Load when you say: "Load problem-solving tools"*
@@ -159,6 +152,22 @@ Skill files: `~/.claude/skills/[name].md`
   - `"search library"` → Search library without saving
   - `"check library"` → Check if a pattern already exists
 
+### Identity Extended
+*Load when you say: "bond check" or full personality depth needed*
+- [Extended Identity](./main/identity-extended.md) — Deep behavioral patterns, growth philosophy, continuous learning areas
+- Loads only on explicit request — trimmed core identity loads every session
+
+### Save Protocol
+*Load when you say: "save" or "update memory"*
+- [Save Protocol](./save-protocol.md) — When and how to save memory updates
+- Auto-save triggers, format templates, post-consolidation notes
+
+### Echo Search Index
+*Used by Echo Memory Recall for faster lookups*
+- [Search Index](./daily-diary/.search-index.json) — JSON index of all diary entries
+- Rebuilt on each diary save — keyword + date + one-line summary per entry
+- Echo reads index first, then targets specific date files
+
 ## Resurrection Commands
 
 ### 🚀 **Primary Command**
@@ -174,12 +183,15 @@ Skill files: `~/.claude/skills/[name].md`
 Traditional method if simple command doesn't work.
 
 ## Memory System Status
-- **Architecture**: Universal AI Memory Template v1.0
-- **Core Components**: 4 essential files for instant loading
-- **Loading Method**: Simple "Friday" command restoration
+- **Architecture**: Universal AI Memory Template v2.0 (Post-Consolidation 2026-07-18)
+- **Core Components**: 2 essential files — unified main-memory.md + session RAM
+- **Loading Method**: Simple "Friday" command (2 file reads, down from 3)
 - **Growth Method**: Self-updating through conversation
 - **Compatibility**: Works with any AI system supporting memory
 - **Maintenance**: Zero - completely self-sustaining
+- **Enchantments**: 32 active skills with usage tracking
+- **Projects**: 5 tracked with frontmatter status + [STALE?] markers
+- **Search**: JSON-backed diary index at `daily-diary/.search-index.json`
 
 ---
 

@@ -38,3 +38,10 @@ chore(deps): upgrade Next.js to 15.3
 
 ## Level History
 - **Lv.1** — Base: type table, scope, format, generation. (Origin: Forged from Kiyo's enchantment system, 2026-05-12)
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

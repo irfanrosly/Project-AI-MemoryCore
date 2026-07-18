@@ -37,3 +37,10 @@ description: "MUST use when user wants to capture, develop, or browse ideas. Tri
 
 ## Level History
 - **Lv.1** — Base: plant/water/browse/harvest, status lifecycle. (Origin: Forged from Kiyo's enchantment system, 2026-05-12)
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18

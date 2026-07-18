@@ -1,0 +1,17 @@
+{
+  "generated": "2026-07-18T00:00:00Z",
+  "entries": [
+    {"date": "2026-07-16", "summary": "Onboarding docs for xsolla-com fresh-grad frontend devs — ONBOARDING.md, TEXT-AND-IMAGE.md, create-block-skill. Docs recovered after git wipe incident.", "keywords": ["xsolla", "onboarding", "docs", "fresh-grad", "incident"]},
+    {"date": "2026-07-15", "summary": "Figma landing-page analysis (XPN + Payment pages) → Confluence reports. video-player WEBSITE-4775 asset-selector feature built.", "keywords": ["figma", "landing-page", "confluence", "video-player", "WEBSITE-4775"]},
+    {"date": "2026-07-10", "summary": "blog-latest-articles tag-driven topic filter + dark/light theme. 16 seed articles, 4 per topic.", "keywords": ["blog-latest-articles", "tags", "dark-theme", "tag-filter"]},
+    {"date": "2026-07-09", "summary": "blog-latest-articles filter implementation (tag pills). Stale instance gotcha documented.", "keywords": ["blog-latest-articles", "tags", "stale-instance", "SiteBuilder"]},
+    {"date": "2026-07-08", "summary": "Confluence block docs — 15 per-block pages + catalog (space XSOL). hero Confluence page drift fixed.", "keywords": ["confluence", "block-docs", "catalog", "hero"]},
+    {"date": "2026-07-06", "summary": "video-player block built — YouTube/Vimeo/mp4, dark/light toggle. First xsolla-com video block.", "keywords": ["video-player", "youtube", "vimeo", "block"]},
+    {"date": "2026-07-02", "summary": "steps block label toggle + light/dark theme. Vanilla Extract CSS source order gotcha.", "keywords": ["steps", "label-toggle", "theme", "vanilla-extract"]},
+    {"date": "2026-06-22", "summary": "blog-hero block WEBSITE-4659 built — article hero + related blogs + article banner + social share.", "keywords": ["blog-hero", "WEBSITE-4659", "social-share", "banner"]},
+    {"date": "2026-06-17", "summary": "WEBSITE-4609 feedback-form block Figma alignment fixes. Tested with guided pairing approach.", "keywords": ["WEBSITE-4609", "feedback-form", "figma-alignment", "guided-pairing"]},
+    {"date": "2026-06-14", "summary": "Enchantment expansions — external plugins (superpowers, playwright-skill, accessibility) evaluated.", "keywords": ["enchantments", "plugins", "superpowers", "playwright"]},
+    {"date": "2026-06-10", "summary": "WEBSITE-4609 feedback-form block work — security fixes, form behavior, Figma alignment.", "keywords": ["WEBSITE-4609", "feedback-form", "security", "redos"]},
+    {"date": "2026-06-05", "summary": "Relationship style defined — Friday's core identity with friend/colleague/mentor/coach layers.", "keywords": ["identity", "relationship-style", "friday", "personality"]}
+  ]
+}

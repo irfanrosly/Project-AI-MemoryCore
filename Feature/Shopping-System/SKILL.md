@@ -36,3 +36,10 @@ Save liked outfits to outfits.md.
 
 ## Level History
 - **Lv.1** — Base: wardrobe, outfits, wishlist. (Origin: Forged from Kiyo's enchantment system, 2026-05-12)
+
+## Usage Stats
+- **Total activations**: 0
+- **First used**: —
+- **Last used**: —
+- **30-day active**: No
+> This section auto-updates on each activation. Last reviewed: 2026-07-18
